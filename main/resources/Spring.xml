@@ -3,12 +3,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- Bean definition for Engine -->
+    
     <bean id="engine" class="com.example.Day_21.Engine">
         <constructor-arg value="V8"/>
     </bean>
 
-    <!-- Bean definition for Car -->
+    
     <bean id="car" class="com.example.Day_21.Car">
         <constructor-arg ref="engine"/>
     </bean>
